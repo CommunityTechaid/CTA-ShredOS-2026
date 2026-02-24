@@ -9,6 +9,8 @@ Rather than try and merge the changes from upstream in the ShredOS fork, the ide
 - Copy `./board/shredos/*` and `./configs/shredos_defconfig`
 - Copy `./package/kernel_cmdline_extractor`
 - Add `kernel_cmdline_extractor` to package config
+- Copy `./package/nwipe`
+- Add `nwipe` to package config
 - Edit configs to remove depricated options (eg., directfb and libhid)
 - Build
 - Proceed as normal.
