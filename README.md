@@ -12,3 +12,9 @@ Rather than try and merge the changes from upstream in the ShredOS fork, the ide
 - Edit configs to remove depricated options (eg., directfb and libhid)
 - Build
 - Proceed as normal.
+
+## ToDo
+- Check kernel config in `./boards/shredos` for legacy options 
+- Test removing ext2 root fs as only `bzImage` is used to generate .img
+- Test removing tar root fs as only `bzImage` is used to generate .img
+- Diff upstream's shredos_defconfig & kernel configs against ours to check differences are sane.
